@@ -67,7 +67,7 @@ public class QuesActivity extends AppCompatActivity {
         //Подулючения новой кнопки
         mNextButton = (Button)findViewById(R.id.next_button);
         mNextButton.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @Override//
             public void onClick(View v) {
                 mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.length;
 //                int question = mQuestionBank[mCurrentIndex].getmTextResId();
