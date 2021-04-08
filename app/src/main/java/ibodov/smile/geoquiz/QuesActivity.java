@@ -29,7 +29,7 @@ public class QuesActivity extends AppCompatActivity {
 
     private void updateQuestion() {
         int question = mQuestionBank[mCurrentIndex].getmTextResId();
-        mQuestionTextView.setText(question);
+        mQuestionTextView.setText(question); //
     }
 
 
